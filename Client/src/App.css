@@ -12,22 +12,22 @@
 ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 
   li {
-    margin-right: 200px;
-    list-style: none;
+    margin-right: 200px; 
+    list-style: none; 
 
   }
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;  
   color: black;
 }
 
 body {
-  background-color: #bbdefb;
+  background-color: #bbdefb; 
 }
 
 .navbar {
