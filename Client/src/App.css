@@ -4,3 +4,57 @@
   box-sizing: border-box;
 }
 
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo2 {
+  width: 20px;
+  height: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  li {
+
+    list-style: none;
+
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #bbdefb;
+}
+
+.navbar {
+  background-color: #5c6bc0;
+ padding-bottom: 10px;
+}
+
+.search-box {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.search-box input {
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 18px;
+  max-width: 200px;
+}
