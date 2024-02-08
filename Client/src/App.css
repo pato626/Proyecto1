@@ -9,7 +9,6 @@
   height: 50px;
 }
 
-<<<<<<< HEAD
 .logo2 {
   width: 20px;
   height: 20px;
@@ -23,45 +22,28 @@ ul {
   li {
 
     list-style: none;
-=======
-ul {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-
-  li {
-    margin-right: 200px; 
-    list-style: none; 
->>>>>>> 94ce6f7569e3dbc1ac0f75ffa8555bfa865f17de
 
   }
 }
 
 a {
-<<<<<<< HEAD
   text-decoration: none;
   color: black;
   font-size: 20px;
   margin-right: 20px;
   margin-left: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
   background-color: #bbdefb;
-=======
-  text-decoration: none;  
-  color: black;
-}
-
-body {
-  background-color: #bbdefb; 
->>>>>>> 94ce6f7569e3dbc1ac0f75ffa8555bfa865f17de
 }
 
 .navbar {
   background-color: #5c6bc0;
  padding-bottom: 10px;
-<<<<<<< HEAD
 }
 
 .search-box {
@@ -78,6 +60,4 @@ body {
   color: white;
   font-size: 18px;
   max-width: 200px;
-=======
->>>>>>> 94ce6f7569e3dbc1ac0f75ffa8555bfa865f17de
 }
