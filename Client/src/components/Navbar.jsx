@@ -13,7 +13,7 @@ const Navbar = () => {
                         <a href=""> <li>Productos</li></a>
                         <div className='search-box'>
                         <input type="search" placeholder='search' />
-                        <img src={Search} alt="" />
+                        <img src={Search} alt="" className='logo2'/>
                         </div>
                         <a href=""> <li>Contacto</li></a>
                         <a href=""> <li><img src={Cart} alt="" className='logo'/></li></a>
