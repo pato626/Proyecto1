@@ -9,14 +9,14 @@ const Navbar = () => {
                 <nav>
                     <ul>
 
-                        <a href=""> <li>Inicio</li> </a>
-                        <a href=""> <li>Productos</li></a>
+                        <a href=""><li>Inicio</li> </a>
                         <div className='search-box'>
-                        <input type="search" placeholder='search' />
-                        <img src={Search} alt="" className='logo2'/>
+                            <input type="search" placeholder='search' />
+                            <img src={Search} alt="" className='logo2' />
                         </div>
+                        <a href=""> <li>Productos</li></a>
                         <a href=""> <li>Contacto</li></a>
-                        <a href=""> <li><img src={Cart} alt="" className='logo'/></li></a>
+                        <a href=""> <li><img src={Cart} alt="" className='logo' /></li></a>
 
                     </ul>
                 </nav>

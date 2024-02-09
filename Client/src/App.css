@@ -44,6 +44,7 @@ body {
 .navbar {
   background-color: #5c6bc0;
  padding-bottom: 10px;
+ padding: 10px;
 }
 
 .search-box {
@@ -61,3 +62,30 @@ body {
   font-size: 18px;
   max-width: 200px;
 }
+
+
+.Inicio {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: auto auto;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.Title {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 80px;
+  text-shadow: #5c6bc0 20px 20px;
+
+}
+
+
+
