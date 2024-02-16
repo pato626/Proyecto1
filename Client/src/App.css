@@ -68,24 +68,35 @@ body {
   display: grid;
   grid-template-columns: 600px 600px;
   grid-template-rows: auto auto;
-  margin-top: 100px;
+  margin-top: 60px;
   justify-content: center;
   align-items: center;
   font-family: "Permanent Marker", cursive;
-  font-weight: 400;
+  font-size: 23px;
   font-style: normal;
 
 }
 
 .Title {
   font-family: "Permanent Marker", cursive;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 65px;
   font-style: normal;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 80px;
-  text-shadow: #5c6bc0 20px 20px;
+  text-shadow: #5c6bc0 25px 25px;
 
 }
 
 
+.animate__animated.animate__backInDown {
+  animation-duration: 1s;
+}
 
+.animate__animated.animate__backInUp {
+  animation-duration: 3s;
+}
+
+.animate__animated.animate__backInRight {
+  animation-duration: 3s;
+}
